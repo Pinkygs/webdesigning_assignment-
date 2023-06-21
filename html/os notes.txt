@@ -1,0 +1,4 @@
+rip---1.distance vector protocol
+      2.it supports 16 hops
+      3.rip sends updates for every 30 seconds
+      4.it support 4 equle paths

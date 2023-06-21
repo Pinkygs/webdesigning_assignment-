@@ -1,0 +1,19 @@
+h1{
+    background-color: blanchedalmond;
+    color: rgb(18, 240, 48);
+    text-align: center;
+    margin-top: 50px;
+}
+.odd{
+    padding-left: 50px;
+    color: rgb(184, 216, 229);
+}
+.even{
+    padding-left: 50px;
+    color: rgb(231, 241, 194);
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000");
+    background-repeat: no repeat;
+    background-size: 1000px  6000px;
+}
