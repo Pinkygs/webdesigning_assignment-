@@ -1,0 +1,238 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>ICDL - International Children's Digital Library</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="description" content="International Children's Digital Library">
+<meta name="keywords" content="International Children's Digital Library, ICDL, children, books, library, online, free">
+<link rel="stylesheet" href="styles/homeimport.css" type="text/css" />
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=yNnmBg0mE71b4mmQRF--hDWGoKKewk_zuFdTwLsMJ166nS-0vXLZ3Pj3acpWOD6JNzKJEQKm37mS_iQwKrbDQQ" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cDovL3d3dy5jaGlsZHJlbnNsaWJyYXJ5Lm9yZy8"/><script type="text/javascript">
+<!--
+
+function show( id ) {
+document.getElementById(id).style.display = 'block';
+}
+function hide( id ) {
+document.getElementById(id).style.display = 'none';
+}
+
+function keywordSearchFocus() {
+if (document.getElementById('searchForm'))
+document.getElementById('searchForm').term.focus();
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {color: #555;}
+#Layer1 {
+	position:absolute;
+	left:432px;
+	top:502px;
+	width:389px;
+	height:298px;
+	z-index:13;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+-->
+</script>
+
+</head>
+<body onload="MM_preloadImages('images/location_still.gif','images/simple_still.gif')">
+<div id="skip-link">
+    <a href="#body" class="sr-only sr-only-focusable">Skip to main content</a>
+  </div>
+<div id="pagewidth">
+
+<div id="homeheader">
+  <div id="mainhead">
+    <div class="logo">
+      <a href="./index.html"><img src="images/logo.gif" alt="ICDL book logo" style="border:0;" /></a> </div>
+    <div class="title">
+      <a href="./index.html"><img src="images/title.gif" alt="International Children's Digital Library" style="margin:25px 0 0 0;border:0;" /></a>
+      <div class="sponsor">
+	  A Library for the World's Children
+      </div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+
+<div class="clr"></div>
+
+<div id="homenavimg">
+&nbsp;
+</div>
+<div id="homenav">
+<!--#include virtual="/menu-js-h.html" -->
+</div>
+<div id="navreadbooksbtn">
+<a href="library/books.html"><img src="images/navbar-book-btn.gif" alt="read books"/></a>
+</div>
+<div style="text-align:right; margin-top:5px; width:100%"><!--#include virtual="/menu/language-menu.php"--></div>
+<div class="clr"></div>
+
+<hr class="hide" />
+
+<div id="outer">
+<div id="inner">
+
+<div id="homeleftcol">
+  
+<div class="headingoffset">
+  <h2><a href="about/mission.html">The Foundation</a></h2>
+</div>
+<div class="green-bg">
+  <ul>
+    <li><a href="about/mission.html">Mission</a></li>
+    <li><a href="people/advisors.html">Board of Advisors</a></li>
+<li><a href="about/foundation.html">Foundation Team</a></li>
+    <li><a href="people/sponsors.html">Sponsors</a></li>
+  </ul>
+  <br/>
+  <ul>
+    <li><a href="people/info4researchers.html">For Researchers &amp; Librarians</a></li>
+  </ul>
+  <br/>
+  <span style="font-size: 80%;">A partnership with the University of Maryland's <a href="http://www.cs.umd.edu/hcil">Human-Computer Interaction Lab</a>. Supported by UMD's <a href="https://ischool.umd.edu/">iSchool</a> and <a href="https://www.cs.umd.edu/">Computer Science Department</a>
+	<p><br>
+    <a href="mailto:directors@childrenslibrary.org">Email directors</a>
+  </span>
+</div>
+
+</div>
+  
+
+<div id="homesidebar" class="topheadingspace">
+	
+	<div class="orange-bg">
+      <h2>Our Mission </h2>
+      <p class="topoffset">The ICDL Foundation promotes tolerance and respect for diverse cultures by providing access to the best of children's literature from around the world.<br/>
+    </div>
+  <br />
+
+</div>
+<hr class="hide" />
+
+<div id="readbooks">
+	<div id="home-readbooks-splice-01">
+		<img src="images/home_readbooks_splice_01.gif" width="375" height="33" alt="">	</div>
+	<div id="home-readbooks-splice-02">
+		<img src="images/home_readbooks_splice_02.gif" width="137" height="128" alt="">	</div>
+	<div id="home-readbooks-splice-03">
+		<div id="flashcontent">
+		<a href="library/books.html"><img src="images/home_readbooks_splice_03_plain.gif" width="110" height="128" alt="Read books"/></a>
+		</div>
+	</div>
+	<div id="home-readbooks-splice-04">
+       <div id="searchitems">
+       </div>
+	</div>
+</div>
+
+<div class="contentheadingoffset" id="body" style="margin-left:15px">
+    <a href='library/books.html'>Book list</a>
+    <br><a href='library/books_by_language.html'>Books by language</a>
+    <br><a href='library/books_by_color.html'>Books by color</a>
+<!--    <br><a href='library/books_by_feeling.html'>Books by feeling</a> -->
+    <br><a href='library/books_by_shape.html'>Books by shape</a>
+    <br><a href='library/books_by_format.html'>Books by format</a>
+    <br><a href='library/books_by_genre.html'>Books by genre (different kinds)</a>
+    <br><a href='library/books_by_character.html'>Books by character</a>
+    <br><a href='library/books_by_fiction.html'>Books by true vs. make believe</a>
+	<br><br>
+<h2>Library News and Notes </h2>
+<!--#include virtual="/press/_includes/announcements.html" -->
+<br>
+<h2>June 2, 2021</h2>
+Dear Readers,
+<p><p>
+Great news! I was able to rebuild a simple version of the in-browser book reader which has enabled me to add back all of the ICDL books. The interface is not what it used to be, and we no longer have translations of books (only the original language the book was published in) - but we have all ~4,000 books back. The site is fast and reliable and should be able to stay around for some time to come. Happy reading!
+<p>  - Ben Bederson
+
+<br><br><p>
+<h2>May 5, 2021</h2>
+Dear Readers,
+<p><p>
+Good news! Thanks to the UMD Computer Science Department, which has agreed to host a static version of ICDL, we have been able to resuscitate the library a bit, and have brought back 1/4 of the books in PDF form (that we have "download" rights for). We had to create a vastly simpler site without many, many of the features - no search, no translations, etc. But about 1,000 of the books are back, and we will work on bringing back more books and at least some aspects of the original site. Please note that we do not have the right to allow you to redistribute these books further, and they are provided to you only for personal use.
+<p>
+	Thank you for so many of your heart-warming and gracious emails which encouraged us to find a way to keep the ICDL alive.
+<p>  - Ben Bederson
+
+<br><br><p>
+<h2>April 19, 2021</h2>
+Dear Readers,
+<p><p>
+It has been over 20 years since we launched the International Children’s Digital Library. In that time, we have served about 15 million people reading over 1,000,000 hours of children’s books. We launched at a time when the concept of reading books online was a bit odd, and almost unheard of for children’s books. After all these years, as far we know, we are still the largest collection of freely available complete children’s books from around the world. And we did that without ever exposing children to commercial activities or risking their privacy.
+<p>
+But for many years, we have served this mission without any funds. And now all of the founders have moved on to other things in their lives. The servers are very old and dusty and there is no one to maintain them. Our licenses for the books are for use only by the ICDL so while we have considered a number of alternatives, none of them really made sense.
+<p>
+And so now it is time to say goodbye and read with the innumerable other resources in the world. The ICDL has been our labor of love, and we will always remember these books, the volunteers, libraries, publishers, and readers around the world with great fondness.
+<p>
+Keep reading!
+<p>
+  - Founders Ben Bederson, Allison Druin, Ann Weeks, Anne Rose and Tim Browne (in memoriam)
+<br>
+<a href="mailto:directors@childrenslibrary.org">Email directors</a>
+</div>
+
+</div>
+
+</div><div class="clr"></div>
+
+<!-- close inner and outer -->
+</div></div>
+
+<hr class="hide" />
+ 	<div id="footer" style="color:#fff; background:#e21833">
+		<span style="font-family: Verdana,Arial,sans-serif;">Generously supported by &nbsp;&nbsp;<a href="https://www.cs.umd.edu/"><img src="images/dept_logo_reversed.png" alt="UMD CS Home" height="40px" style="vertical-align:middle"/></a> <a href="https://ischool.umd.edu/"><img src="images/iSchoolLogo.png" alt="UMD College of Information Studies" height="54px" style="vertical-align:middle"/></a></span>
+<p><p><a href="https://www.umd.edu/web-accessibility" title="learn more about UMD's web accessibility policy" style="color:#fff">Web Accessibility</a>&nbsp;|&nbsp;<a href="https://umd.edu/privacy-notice" title="read the University's Privacy Notice" style="color:#fff">Privacy Notice</a></p><br>
+	</div>
+<div class="clr"></div>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-97669-3";
+_udn = "childrenslibrary.org";
+urchinTracker();
+</script>
+<script src="https://umd-header.umd.edu/build/bundle.js?search=0&amp;search_domain=&amp;events=0&amp;news=0&amp;schools=0&amp;admissions=0&amp;support=0&amp;support_url=&amp;wrapper=0&amp;sticky=0"></script>
+</body>
+</html>

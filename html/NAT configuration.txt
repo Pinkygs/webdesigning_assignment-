@@ -1,0 +1,43 @@
+Static NAT configuration
+
+Configuration:
+ 
+IP address Mapping:
+ 
+Router(config)# ip  nat  inside  source  static    192.168.1.1  200.200.200.1
+ Apply NAT on the interface: 
+Router(config)# interface f0/0 
+Router(config-if)# ip nat inside 
+Router(config)# interface s0/0/0 
+Router(config-if)# ip nat outside
+
+Checking NAT results:
+ 
+Router# show ip nat translations
+Router# show ip nat statistics
+
+Dynamic NAT configuration
+
+Configuration:
+ 
+Create ACL:
+ 
+Router(config)# access-list  73  permit 192.168.1.10    0.0.0.0 
+Router(config)# access-list  73  permit 192.168.1.11    0.0.0.0 
+Router(config)# access-list  73  permit 192.168.1.12    0.0.0.0 
+
+Create NAT Pool:
+ 
+Router(config)# ip   nat   pool    naga    200.200.200.1   200.200.200.6   netmask  255.255.255.240  
+Map ACL to NAT Pool:
+ 
+Router(config)# ip  nat  inside  source  list    73    pool   naga Apply NAT on the interface: 
+Router(config)# interface e 0 
+Router(config-if)# ip nat inside 
+Router(config)# interface s 0 
+Router(config-if)# ip nat outside
+ 
+Checking NAT results:
+ 
+Router# show ip nat translations
+Router# show ip nat statistics

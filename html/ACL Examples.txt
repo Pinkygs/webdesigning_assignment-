@@ -1,0 +1,66 @@
+Standard ACL Examples
+
+1. Don’t allow 172.17.0.1 and 172.16.0.5 to access Delhi network
+
+Creation:
+
+Delhi(config)# access-list	35	deny	172.17.0.1	0.0.0.0
+Delhi(config)# access-list	35	deny	172.16.0.5	0.0.0.0
+Delhi(config)# access-list	35	permit	any	
+
+Implementation:
+
+Delhi(config)# interface	fa0/0
+Delhi(config-if)# ip access-group	35	out
+
+Delhi# show access-list 35
+
+2. Don’t allow 192.168.6.1, 192.168.6.2, 172.17.0.3 to access Chennai network
+
+Creation:
+
+Chen(config)# access-list	89	deny	192.168.6.1 0.0.0.0
+Chen(config)# access-list	89	deny	192.168.6.2 0.0.0.0
+Chen(config)# access-list	89	deny	172.17.0.3	0.0.0.0
+Chen(config)# access-list	89	permit	any
+
+Implementation:
+
+Chen(config)# interface	f0/0
+Chen(config-if)# ip access-group	89	out
+
+Chen# show access-list	89
+
+Extended ACL Examples
+
+1. Don’t allow 192.168.6.4, 172.17.0.2, 172.17.0.3 to access 172.16.0.5
+
+Creation:
+
+Chen(config)# access-list	167	deny	ip	192.168.6.4	0.0.0.0	172.16.0.5	0.0.0.0
+Chen(config)# access-list	167	deny	ip	172.17.0.2	0.0.0.0	172.16.0.5	0.0.0.0
+Chen(config)# access-list	167	deny	ip	172.17.0.3	0.0.0.0	172.16.0.5	0.0.0.0
+Chen(config)# access-list	167	permit	ip	any	any	
+
+Implementation:
+
+Chen(config)# interface	f0/0
+Chen(config-if)# ip access-group	167	out 
+Chen# show access-list	167
+
+2. Permit 172.17.0.1, 172.17.0.5, 172.16.0.3 to access web services on 192.168.5.4
+
+Creation:
+
+Delhi(config)# access-list	153	permit	tcp	172.17.0.1	0.0.0.0	192.168.5.4	0.0.0.0	eq	80
+Delhi(config)# access-list	153	permit	tcp	172.17.0.5	0.0.0.0	192.168.5.4	0.0.0.0	eq	80
+Delhi(config)# access-list	153	permit	tcp	172.16.0.3	0.0.0.0	192.168.5.4	0.0.0.0	eq	80
+Delhi(config)# access-list	153	deny	tcp	any		192.168.5.4	0.0.0.0	eq	80
+Delhi(config)# access-list	153	permit	ip	any		any		
+
+Implementation:
+
+Delhi(config)# interface	f0/0
+Delhi(config-if)# ip access-group	153	out 
+Delhi# show access-list	153
+
